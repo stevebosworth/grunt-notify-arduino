@@ -1,0 +1,35 @@
+{
+  "name": "notify-arduino",
+  "version": "0.0.1",
+  "description": "Use Grunt, Johnny-Five and an Arduino Board to create hardware based alerts for your grunt tasks",
+  "homepage": "https://github.com/stevebosworth/grunt-notify-arduino",
+  "repository": "https://github.com/stevebosworth/grunt-notify-arduino.git",
+  "author": {
+    "name": "Steve Bosworth",
+    "email": "stevebosworth@gmail.com",
+    "url": "www.stevebosworth.ca"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "~0.4.2",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
