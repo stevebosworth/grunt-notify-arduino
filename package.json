@@ -31,5 +31,8 @@
   },
   "scripts": {
     "test": "grunt test"
+  },
+  "dependencies": {
+    "johnny-five": "~0.7.28"
   }
 }
